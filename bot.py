@@ -12,8 +12,8 @@ used_letters = set()
 can_help = False
 
 
-api_key = os.environ['api_key']
-app_id = os.environ['api_id']
+api_key = "ea860795-6c4b-483a-957f-c1ecb6638b7b"
+app_id = "1574976"
 dp = DefinitionProvider(api_key=api_key, app_id=app_id)
 
 
@@ -121,7 +121,7 @@ def check_the_letter(bot, update):
                 bot.send_message(chat_id, text, reply_to_message_id=update.message.message_id, parse_mode='Markdown')
 
 
-token = os.environ['guess_word']
+token = "1415775606:AAG1lU9tjp9TiZquRuBJK2dn8eM0Od9-ltQ"
 
 updater = Updater(token)
 
